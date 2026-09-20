@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Directory — The Knight Post</title>
+<meta name="description" content="Search food, coffee shops, study spots, services, and nightlife near Rutgers New Brunswick.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="masthead">
+  <div class="wrap masthead-top">
+    <span class="masthead-date">New Brunswick, NJ</span>
+    <span class="masthead-tagline">By students, for students</span>
+  </div>
+  <div class="masthead-title">
+    <a href="index.html">The Knight <span class="accent">Post</span></a>
+  </div>
+  <p class="masthead-sub">Rutgers life, off-campus, and everything in between</p>
+  <nav class="primary-nav wrap">
+    <a href="index.html">Home</a>
+    <a href="directory.html" class="active">Directory</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="advertise.html">Advertise</a>
+  </nav>
+</header>
+
+<main id="main">
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2>The Directory</h2>
+      </div>
+
+      <div class="directory-tools">
+        <input
+          type="text"
+          id="search-input"
+          class="search-input"
+          placeholder="Search by name, area, or vibe — try 'open late' or 'quiet'"
+          aria-label="Search the directory"
+        >
+      </div>
+      <div class="chip-row" id="chip-row" role="group" aria-label="Filter by category"></div>
+
+      <p class="result-count" id="result-count"></p>
+
+      <div class="listing-grid" id="listing-grid"></div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <div class="ad-panel">
+        <div>
+          <h2>Don't see your business here?</h2>
+          <p>Get listed for free, or upgrade to a featured spot at the top of relevant searches.</p>
+        </div>
+        <a href="advertise.html" class="btn">List your business</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">The Knight <span class="accent">Post</span></div>
+        <p class="footer-desc">An independent student blog and directory covering life around Rutgers–New Brunswick. Not affiliated with Rutgers University.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="directory.html">Directory</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+      </div>
+      <div class="footer-col">
+        <h4>Business</h4>
+        <a href="advertise.html">Advertise with us</a>
+        <a href="about.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 The Knight Post. Independent student publication — not an official Rutgers University site.
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/directory.js"></script>
+</body>
+</html>
